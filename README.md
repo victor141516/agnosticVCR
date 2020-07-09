@@ -21,7 +21,7 @@ docker run --rm \
     -p 8000:8000 \
     -v $(pwd)/vcr.jsonl:/vcr.jsonl \
     -v $(pwd)/certs:/root/.anyproxy/certificates \
-    victor141516/vcr
+    victor141516/agnosticvcr
 ```
 
 You will have the proxy running in the port `8000`.\
@@ -43,7 +43,7 @@ docker run -it --rm \
     -v $(pwd)/customMatcher.js:/customMatcher.js \
     -v $(pwd)/vcr.jsonl:/vcr.jsonl \
     -v $(pwd)/certs:/root/.anyproxy/certificates \
-    victor141516/vcr
+    victor141516/agnosticvcr
 ```
 
 #### Change the proxy port
