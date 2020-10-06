@@ -59,7 +59,7 @@ docker run -it --rm \
 
 #### Live see the requests
 
--   Bind the `8002` port (`-e 8002:8002`) and you will have the [AnyProxy WebUI](https://gw.alipayobjects.com/zos/rmsportal/JoxHUbVhXNedsPUUilnj.gif)
+-   Bind the `8002` port (`-p 8002:8002`) and you will have the [AnyProxy WebUI](https://gw.alipayobjects.com/zos/rmsportal/JoxHUbVhXNedsPUUilnj.gif)
 
 #### Edit the recorded requests
 
